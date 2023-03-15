@@ -1,0 +1,258 @@
+.active img{
+    width: 80% !important;
+    height: 80% !important;
+    position: initial !important;
+}
+.nope a:hover{
+    background-color: transparent !important;
+}
+.nope a img:hover{
+    background-color: #d9d9d9b8;
+    border-radius: 50%;
+    color: black;
+}
+.profile{
+    background-color: white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.bod{
+
+    
+}
+.navbar{
+    height: 38px !important;
+    min-height: 38px !important;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+.navbar img{
+    width: 290px;
+height: 290px;
+top: -120px;
+}
+
+.navbar-right{
+    margin-top: -10px;
+}
+
+/* create post */
+.create{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.right{
+    background: aliceblue;
+    height: fit-content;
+    width: auto;
+    margin-left: 3%;
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+
+}
+.left{
+    background: rgb(154, 154, 154);
+    height: 90%;
+    width: 50%;
+}
+.container-fluid{
+    margin: 20px;
+}
+.post{
+    width: 95%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 25px 0px 0px -10px !important;
+  
+}
+.postsec{
+    width: 65%;
+}
+.sort{
+    background-color: blue;
+    width: 35%;
+}
+.left{
+    /* background-image: url('../undraw_fill_form_re_cwyf.svg'); */
+    background-size: cover !important;
+    background-color: #2f2e41 !important;
+}
+.right h4{
+    padding: 10px;
+}
+.right h5{
+    padding: 10px;
+    text-align: end;
+}
+.bell img{
+    width: 65px;
+    height: 65px;
+    top: -32px;
+}
+.butn{
+    background: white;
+    width: 40%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.right > .post{
+    cursor: pointer;
+}
+
+.pro{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #2f2e41;
+    text-align: center;
+}
+.sub{
+    position: absolute;
+    right: 65px;
+    background-color: white;
+    top: 48px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: none;
+}
+.sub div:hover{
+    background-color: rgb(230, 230, 230);
+}
+.pro:hover .sub{
+    display: block;
+}
+li{
+    margin-left: 20px;
+}
+
+.up{
+    background-color: white;
+    height: 240px;
+    margin-top: 10px;
+    position: relative;
+ 
+}
+.flex{
+    display: flex;
+}
+.profile{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 9%;
+    margin-left: 100px;
+    position: absolute;
+}
+.uname{
+    margin-left: 320px;
+    margin-top: 200px;
+    font-size: 1.8vw;
+    display: flex;
+    flex: none;
+}
+.coverimg{
+    margin-top: 10px;
+    border: 1px solid;
+    height: 35px;
+    right: 30px;
+    cursor: pointer;
+    position: absolute;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: white;
+}
+.coverimg input{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    margin: -7px 0px 0px -5px;
+}
+.choosep{
+    background-color: #0000007d;
+    text-align: center;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    display: none;
+    padding-top: 44%;
+    color: white;
+    cursor: pointer;
+}
+.profile:hover .choosep{
+    display: block;
+    background: rgb(255, 255, 255,0.2);
+}
+.form2{
+    width: 100%;
+}
+.form2 > .form-group{
+display: flex;
+}
+.form-group label{
+    width: 300px;
+    padding-top: 10px;
+}
+.up img{
+    width: 25px;
+    margin-left: 10px;
+    height: 25px;
+    cursor: pointer;
+}
+.modal {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 20%;
+    align-items: center;
+}
+
+.modal button {
+    margin-top: 10px;
+}
+
+.modal img{
+    position: absolute;
+    margin-top: -11px;
+    height: 30px;
+    right: 10px;
+    cursor: pointer;
+}
+.setting{
+    background-color: rgba(255, 255, 255, 0.445);
+    border: 1px solid;
+    border-radius: 8px;
+    width: 50%;
+    padding: 40px;
+    margin: 20px 0px 0px 500px;
+    backdrop-filter: blur(5px);
+
+}
+.setting h3{
+    text-align: center;
+}
+.sub div{
+    cursor: pointer;
+}
+.uname{
+    color: white;
+}
